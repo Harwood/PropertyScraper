@@ -43,3 +43,4 @@ echo "https://www.airbnb.co.uk/rooms/14531512" | ./property_scrapper.py -
 - [x] Handle mutiple urls
 - [ ] Proper testing
 - [ ] Implement with different libraries and languages to explore performance variations
+- [ ] Create Slack bot

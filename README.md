@@ -1,6 +1,6 @@
 # PropertyScrapper
 
-### NOTE: It appears Airbnb will throttle results. If this occurs a warning will be printed to stderr and the scraper will quit.
+[![asciicast](https://asciinema.org/a/ZfGvmQlhOOJraKcSgbyPhEWmV.png)](https://asciinema.org/a/ZfGvmQlhOOJraKcSgbyPhEWmV)
 
 ## Description
 
@@ -26,6 +26,8 @@ Findings are stored in an SQLite database table `listings` with the following co
 - description
 - amenities (CSV)
 
+### NOTE: It appears Airbnb will throttle results. If this occurs a warning will be printed to stderr and the scraper will quit.
+
 ## Usage
 
 Requires Python 3
@@ -41,6 +43,7 @@ echo "https://www.airbnb.co.uk/rooms/14531512" | ./property_scrapper.py -
 - [x] CLI flags
 - [x] Database storage
 - [x] Handle mutiple urls
+- [x] Add requirements.txt
 - [ ] Proper testing
 - [ ] Implement with different libraries and languages to explore performance variations
 - [ ] Create Slack bot

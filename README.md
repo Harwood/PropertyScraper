@@ -1,4 +1,4 @@
-# PropertyScrapper
+# PropertyScraper
 
 [![asciicast](https://asciinema.org/a/ZfGvmQlhOOJraKcSgbyPhEWmV.png)](https://asciinema.org/a/ZfGvmQlhOOJraKcSgbyPhEWmV)
 
@@ -8,7 +8,7 @@ Displays rental information for a given Airbnb listing url.
 
 For usage run:
 ```bash
-./property_scrapper.py --help
+./property_scraper.py --help
 ```
 
 Findings are stored in an SQLite database table `listings` with the following columns.
@@ -33,9 +33,9 @@ Findings are stored in an SQLite database table `listings` with the following co
 Requires Python 3
 
 ```bash
-./property_scrapper.py "https://www.airbnb.co.uk/rooms/14531512"
-./property_scrapper.py urls.txt
-echo "https://www.airbnb.co.uk/rooms/14531512" | ./property_scrapper.py -
+./property_scraper.py "https://www.airbnb.co.uk/rooms/14531512"
+./property_scraper.py urls.txt
+echo "https://www.airbnb.co.uk/rooms/14531512" | ./property_scraper.py -
 ```
 
 ## Future Improvements

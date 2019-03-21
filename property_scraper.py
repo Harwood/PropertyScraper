@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #! /usr/bin/env python3
 """Airbnb listing scraping
 """
@@ -14,7 +15,7 @@ import requests
 import sqlite3
 
 import click
-from lxml import html
+from xml import etree
 # We should ignore SIGPIPE when using pycurl.NOSIGNAL - see
 # the libcurl tutorial for more info.
 try:

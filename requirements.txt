@@ -1,3 +1,0 @@
-click==6.7
-lxml==3.8.0
-validators==0.12.0
